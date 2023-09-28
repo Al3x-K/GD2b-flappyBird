@@ -8,10 +8,10 @@ public class player : MonoBehaviour
 
     public float velocity = 2.4f;
     private Rigidbody2D rigidbody;
+
     void Start()
     {
-        Debug.Log();
-        rigidbody = GetComponent<rigidbody2D>();
+        rigidbody = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
